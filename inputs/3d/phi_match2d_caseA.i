@@ -5,10 +5,10 @@
 #
 # Build/generate from the repo root:
 #   ./ant-opt -i inputs/3d/phi_match2d_caseA.i \
-#     mesh_file=inputs/3d/puck.msh \
+#     mesh_file=inputs/3d/puck_refined_symmetric_20k.msh \
 #     Outputs/out/file_base=outputs/3d/phi_match2d_caseA
 
-mesh_file = puck.msh
+mesh_file = puck_refined_symmetric_20k.msh
 phi0 = 0.08
 Aphi = 0.03
 lcorr = 0.015

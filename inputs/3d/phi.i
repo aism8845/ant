@@ -1,7 +1,7 @@
 # Build the mesh first from the repo root:
-#   gmsh inputs/3d/puck.geo -3 -format msh2 -o inputs/3d/puck.msh
+#   gmsh inputs/3d/puck_refined_symmetric_20k.geo -3 -format msh2 -o inputs/3d/puck_refined_symmetric_20k.msh
 
-mesh_file = puck.msh
+mesh_file = puck_refined_symmetric_20k.msh
 phi0 = 0.10
 Aphi = 0.04
 lcorr = 0.10

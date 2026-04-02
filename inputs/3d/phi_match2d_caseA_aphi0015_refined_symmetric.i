@@ -3,7 +3,7 @@
 #   Aphi = 0.015
 #   lcorr = 0.015
 
-mesh_file = puck_refined_symmetric.msh
+mesh_file = puck_refined_symmetric_20k.msh
 phi0 = 0.08
 Aphi = 0.015
 lcorr = 0.015

@@ -1,9 +1,9 @@
 # Build the mesh first from the repo root:
-#   gmsh inputs/3d/puck.geo -3 -format msh2 -o inputs/3d/puck.msh
+#   gmsh inputs/3d/puck_refined_symmetric_20k.geo -3 -format msh2 -o inputs/3d/puck_refined_symmetric_20k.msh
 # Then generate the speckle field:
 #   ./ant-opt -i inputs/3d/phi.i
 
-mesh_file = puck.msh
+mesh_file = puck_refined_symmetric_20k.msh
 phi_file = ../../outputs/3d/phi.e
 
 end_time = 10
