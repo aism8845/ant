@@ -1,0 +1,8 @@
+[Tests]
+  [coupled_smoke]
+    type = RunApp
+    input = ../../../../inputs/current/smoke.i
+    cli_args = 'Executioner/end_time=0.004 Outputs/exodus=false'
+    requirement = 'The app shall execute the coupled mixture+n transport smoke input on the TL mechanics path.'
+  []
+[]
