@@ -125,6 +125,9 @@ test.cache
 !**/gold/**/*.info
 !**/gold/**/*.xml*
 !**/gold/**/*.json*
+!inputs/3d/phi_10k.e
+!inputs/3d/phi_20k.e
+!inputs/3d/phi_50k.e
 
 peacock_run_tmp.i
 yaml_dump*
