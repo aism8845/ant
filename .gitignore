@@ -134,6 +134,7 @@ test.cache
 !inputs/3d/phi_10k_phi008_aphi004.e
 !inputs/3d/phi_20k_phi008_aphi004.e
 !inputs/3d/phi_50k_phi008_aphi004.e
+!inputs/3d/phi_20k_phi0008_aphi0004.e
 
 peacock_run_tmp.i
 yaml_dump*
