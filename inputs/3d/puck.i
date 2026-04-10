@@ -3,6 +3,7 @@
 # The tracked 20k IC file is inputs/3d/phi_20k.e.
 # For the other meshes, override both mesh_file and phi_file together:
 #   mesh_file=puck_refined_symmetric_10k.msh phi_file=phi_10k.e
+#   mesh_file=puck_refined_symmetric_40k.msh phi_file=phi_40k_phi008_lcorr0015_aphi002.e
 #   mesh_file=puck_refined_symmetric_50k.msh phi_file=phi_50k.e
 
 mesh_file = puck_refined_symmetric_20k.msh
